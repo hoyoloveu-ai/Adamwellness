@@ -1,0 +1,4 @@
+:HL["/Adamwellness/_next/static/chunks/0s3qyf9_xn88v.css","style"]
+:HL["/Adamwellness/_next/static/media/5c285b27cdda1fe8-s.p.2_mbdogr7ni8i.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Adamwellness/_next/static/media/fabcf92ba1ccea36-s.p.1w_qz2ahumqmz.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"RnET6KBTSbzc_sPH6nZo7"}

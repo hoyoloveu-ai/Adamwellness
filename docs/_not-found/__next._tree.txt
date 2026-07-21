@@ -1,0 +1,2 @@
+:HL["/Adamwellness/_next/static/chunks/0s3qyf9_xn88v.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"RnET6KBTSbzc_sPH6nZo7"}
