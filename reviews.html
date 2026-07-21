@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviews &amp; Contact — Adamwellness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main">
+        <a class="logo" href="index.html">Adamwellness</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="stories.html">Stories</a></li>
+          <li><a href="plans.html">Plans</a></li>
+          <li><a class="active" href="reviews.html">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page">
+      <div class="split">
+        <section aria-labelledby="reviews-title">
+          <h1 class="page-title" id="reviews-title">Reviews</h1>
+          <p class="page-lead">What members say about Adamwellness.</p>
+
+          <div class="reviews-list" id="reviews-list">
+            <article class="review">
+              <div class="stars" aria-label="5 of 5 stars">★★★★★</div>
+              <p class="review-quote">Bästa träningen jag haft. Starkare både fysiskt och mentalt.</p>
+              <p class="review-author">— Anna</p>
+            </article>
+            <article class="review">
+              <div class="stars" aria-label="5 of 5 stars">★★★★★</div>
+              <p class="review-quote">Adam pushes you to the next level. Every session makes a difference!</p>
+              <p class="review-author">— Erik</p>
+            </article>
+            <article class="review">
+              <div class="stars" aria-label="5 of 5 stars">★★★★★</div>
+              <p class="review-quote">Professionell, motiverande och alltid med fokus på resultat.</p>
+              <p class="review-author">— Sofia</p>
+            </article>
+          </div>
+
+          <div class="rate-box">
+            <h3>Leave a review</h3>
+            <div class="star-input" id="star-input" role="group" aria-label="Star rating">
+              <button type="button" class="star-btn" data-star="1" aria-label="1 star">★</button>
+              <button type="button" class="star-btn" data-star="2" aria-label="2 stars">★</button>
+              <button type="button" class="star-btn" data-star="3" aria-label="3 stars">★</button>
+              <button type="button" class="star-btn" data-star="4" aria-label="4 stars">★</button>
+              <button type="button" class="star-btn" data-star="5" aria-label="5 stars">★</button>
+            </div>
+            <textarea id="review-text" placeholder="Write your review…" maxlength="280"></textarea>
+            <button type="button" class="btn btn-black" id="submit-review">Submit review</button>
+          </div>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-title">
+          <h2 class="page-title" id="contact-title">Contact</h2>
+          <p class="page-lead">Get in touch — we reply within one business day.</p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="label">Phone</span>
+              <a href="tel:+46701234567">+46 70 123 45 67</a>
+            </li>
+            <li>
+              <span class="label">Email</span>
+              <a href="mailto:hello@adamwellness.se">hello@adamwellness.se</a>
+            </li>
+            <li>
+              <span class="label">Address</span>
+              <span>Stockholm, Sweden</span>
+            </li>
+            <li>
+              <span class="label">Hours</span>
+              <span>Mon–Fri 06–21 · Sat–Sun 08–16</span>
+            </li>
+          </ul>
+
+          <div class="map-placeholder" aria-hidden="true">Map</div>
+
+          <div class="social-row">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg>
+              Instagram
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-5 2.2-5 5v2H7v4h2v7h4v-7h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg>
+              Facebook
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.6 7.4A6.5 6.5 0 0 1 14.8 4h-3.2v11.2a2.4 2.4 0 1 1-1.7-2.3V9.5a5.6 5.6 0 1 0 4.9 5.6V10a9.6 9.6 0 0 0 4.8 1.3V8.1a6.5 6.5 0 0 1-.0-.7z"/></svg>
+              TikTok
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-social">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-5 2.2-5 5v2H7v4h2v7h4v-7h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg>
+          </a>
+          <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.6 7.4A6.5 6.5 0 0 1 14.8 4h-3.2v11.2a2.4 2.4 0 1 1-1.7-2.3V9.5a5.6 5.6 0 1 0 4.9 5.6V10a9.6 9.6 0 0 0 4.8 1.3V8.1a6.5 6.5 0 0 1-.0-.7z"/></svg>
+          </a>
+        </div>
+        <span class="footer-domain">adamwellness.se</span>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

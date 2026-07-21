@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plans — Adamwellness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main">
+        <a class="logo" href="index.html">Adamwellness</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="stories.html">Stories</a></li>
+          <li><a class="active" href="plans.html">Plans</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="reviews.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page">
+      <h1 class="page-title">Plans</h1>
+      <p class="page-lead">Simple membership. Monthly or yearly.</p>
+
+      <div class="plans-layout">
+        <article class="plan">
+          <h2>Monthly</h2>
+          <p class="plan-price">799 kr / mån</p>
+          <ul>
+            <li>Full gym access</li>
+            <li>1 PT session / month</li>
+            <li>App support &amp; tracking</li>
+          </ul>
+          <button type="button" class="btn btn-black" data-toast="Monthly plan selected (demo — no payment yet).">
+            Välj månad
+          </button>
+        </article>
+
+        <article class="plan featured">
+          <span class="plan-badge">Best value</span>
+          <h2>Yearly</h2>
+          <p class="plan-price">7 990 kr / år</p>
+          <ul>
+            <li>Full gym access</li>
+            <li>1 PT session / month</li>
+            <li>App support &amp; tracking</li>
+            <li>2 extra guest passes / month</li>
+          </ul>
+          <button type="button" class="btn btn-black" data-toast="Yearly plan selected (demo — no payment yet).">
+            Välj år
+          </button>
+        </article>
+
+        <aside class="booking">
+          <h2>Book a session</h2>
+          <p class="cal-month" id="cal-month">Juni 2026</p>
+          <div class="cal-grid" id="cal-grid" aria-label="Calendar">
+            <span class="dow">Mån</span>
+            <span class="dow">Tis</span>
+            <span class="dow">Ons</span>
+            <span class="dow">Tor</span>
+            <span class="dow">Fre</span>
+            <span class="dow">Lör</span>
+            <span class="dow">Sön</span>
+          </div>
+          <p class="booking-hint" id="booking-hint">Välj datum för att se tillgängliga tider</p>
+          <button type="button" class="btn btn-black" id="book-btn">Boka tid</button>
+        </aside>
+      </div>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-social">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-5 2.2-5 5v2H7v4h2v7h4v-7h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg>
+          </a>
+          <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.6 7.4A6.5 6.5 0 0 1 14.8 4h-3.2v11.2a2.4 2.4 0 1 1-1.7-2.3V9.5a5.6 5.6 0 1 0 4.9 5.6V10a9.6 9.6 0 0 0 4.8 1.3V8.1a6.5 6.5 0 0 1-.0-.7z"/></svg>
+          </a>
+        </div>
+        <span class="footer-domain">adamwellness.se</span>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
